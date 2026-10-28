@@ -1,0 +1,15 @@
+# Dependencies are installed by npm for the target platform.
+node_modules/
+
+# Production build output
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Tooling and OS files
+.vite/
+.DS_Store
+*.log
